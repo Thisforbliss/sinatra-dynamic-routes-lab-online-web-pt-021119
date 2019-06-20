@@ -25,6 +25,8 @@ get '/:operation/:number1/:number2' do
   #binding.pry
    sum = params[:number1].to_i + params[:number2].to_i
    sum.to_s
+   subtract = params[:number2].to_i - params[:number1].to_i
+   subtract.to_s
   #binding.pry
 end
   
