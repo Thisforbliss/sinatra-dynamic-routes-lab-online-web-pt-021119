@@ -18,7 +18,7 @@ get '/say/:number/:phrase' do
 end 
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do
- "HEy params[:word1] params[:word2]"
+ parent = "HEy params[:word1] params[:word2]"
 binding.pry
 
 end
