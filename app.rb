@@ -1,5 +1,5 @@
 require_relative 'config/environment'
-
+require 'pry'
 class App < Sinatra::Base
   # Write your code here!
 
@@ -18,7 +18,9 @@ get '/say/:number/:phrase' do
 end 
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do
-params[:word1, :word2, :word3, :word4, :word5]
+ sentence = params[:word1] params[:word2]
+binding.pry
+
 end
 
 end
