@@ -22,6 +22,7 @@ get '/say/:word1/:word2/:word3/:word4/:word5' do
 end
 
 get '/operation/:number1/:number2' do
+  binding.pry
    sum = params[:number1].to_i + params[:number2].to_i
   #binding.pry
 end
