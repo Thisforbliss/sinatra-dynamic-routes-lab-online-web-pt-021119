@@ -30,7 +30,7 @@ get '/:operation/:number1/:number2' do
   #binding.pry
 end
   
-  
+ get '/:operation/:number1/:number2' do 
   
   
   
